@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estiloelementos.css">
+    <title>::Elementos::</title>
+</head>
+<body>
+    <div class="anterior"> &lt;div&gt; anterior </div> 
+    <!-- <div class="muestra"> Contenido del div de prueba</div>  -->
+    <div class="muestra"> 
+        <label> Nombre:</label>
+        <input type="text" id="nombre">
+        <div>
+            <label> Apellido</label>
+            <input type="text" id="apellido">
+        </div>
+        <div>
+            <label> Edad</label>
+            <input type="number" min="10" max="90" id="edad">
+        </div>
+        <div>
+            <label> E-mail</label>
+            <input type="email" id="email">
+        </div>
+        <div>
+            <label> Month</label>
+            <input type="month" id="mes">
+        </div>
+        <div>
+            <label> Usuario</label>
+            <input type="text" placeholder="te quiero rabanito">
+        </div>
+        <div>
+            <label> Contraseña</label>
+            <input type="password" minlength="8">
+        </div>
+        <div>
+            <label>Inserte su URL </label>
+            <input type="url" placeholder="https://example.com" >
+        </div>
+    
+        <div>
+            <label>xd </label>
+            <textarea id="textareas"></textarea>
+        </div>
+
+        <label>Genero:</label>
+        <select name="genero" id="genero" >
+            <option value="0">-selecione</option>
+            <option value="1">Femenino</option>
+            <option value="2">Masculino</option>
+        </select>
+
+            <button type="submit" id="botonenviar" onclick="mostrar()">send</button>
+
+    </div> 
+    <div class="posterior"> &lt;div&gt; posterior </div>
+
+    <script src="../JS/misfunciones.js"></script>
+</body>
+</html>
