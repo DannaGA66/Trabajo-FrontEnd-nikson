@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>::busqued::</title>
+</head>
+<body>
+    <div>
+        <form action="">
+            <label for="identificacion">Identificacion</label>
+            <input type="text" name="identificacion" id="identificacion" minlength="10" maxlength="10"><br>
+        
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre"><br>
+        
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" id="apellido"><br>
+
+            <label for="edad">Edad</label>
+            <input type="number" name="edad" id="edad"><br>
+
+            <label for="tel">Telefono</label>
+            <input type="text" name="tel" minlength="10" maxlength="10" id="tel"><br>
+            
+            <button onclick="enviar()" type="submit">Agregar</button><br>
+        </form>
+    </div>
+    <div>
+        <label for="lista">Lista personas</label>
+        <textarea name="lista" id="lista"></textarea><br>
+        <button onclick="buscarMayor()">persona mayor </button>
+    </div>
+    <div id="personaMayor">
+
+    </div>
+
+
+
+
+    <script src="../JS/busqueda.js"></script>
+</body>
+</html>
